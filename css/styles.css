@@ -88,16 +88,26 @@ border-bottom: 1px solid #ECECEC;
     display: flex;
     align-items: center;
 }
-
+.mailhover-icons:hover,
+.mailhover-icons:focus {
+    background-color: #2196F3;
+}
+.vector-icons:hover,
+.vector-icons:focus {
+    background-color: #2196F3;
+}
 .mailhover-icons {
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin-right: 10px;
+    fill: #757575;
+    
 }
 .vector-icons {
     display: flex;
     align-items: center;
     margin-right: 10px;
+     fill: #757575; 
     
 }
 .contacts-link {
@@ -182,6 +192,7 @@ border-bottom: 1px solid #ECECEC;
 }
 
 
+
 /* Hero */
 
 .overlay {
@@ -190,9 +201,9 @@ border-bottom: 1px solid #ECECEC;
     margin-right: auto;
     margin-left: auto;
     background-image:linear-gradient(to right,
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/studio/imghero.jpg);
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/studio/imghero.jpg);
     background-position: center;
     background-color: #C4C4C4;;
 }
@@ -255,81 +266,21 @@ border-bottom: 1px solid #ECECEC;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.icon {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding-top: 25px;
+}
 
 .advantage-list {
     display: flex;
     gap: 30px;
 }
-/* .advantage-icons::before {
-    
-        display: block;
-        content: "";
-        height: 120px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        background: #F5F4FA;
-        border-radius: 4px;
-}  */
-.advantage-antenna::before {
-     background: #F5F4FA;
-    border-radius: 4px;
-    display: block;
-    content: "";
-    height: 70px;
-    outline: 1px solid red; 
-    
-    background-image: url(../images/icons/icons2.svg#antenna);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-     margin-bottom: 30px; 
-   
-}
-.advantage-clock::before {
-    background: #F5F4FA;
-    border-radius: 4px;
-    display: block;
-    content: "";
-    height: 70px;
-    outline: 1px solid red;
-    background-image: url(../images/icons/SVG/clock.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
-
-}
-.advantage-diagram::before {
-    background: #F5F4FA;
-    border-radius: 4px;
-    display: block;
-    content: "";
-    height: 70px;
-    outline: 1px solid red;
-    background-image: url(../images/icons/SVG/diagram.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
-
-}
-.advantage-astronaut::before {
-    background: #F5F4FA;
-    border-radius: 4px;
-    display: block;
-    content: "";
-    height: 70px;
-    outline: 1px solid red;
-    background-image: url(../images/icons/SVG/astronaut.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
-
-}
-
-
 
 .advantage-list:last-child {
     margin-right: 0;
@@ -428,9 +379,39 @@ padding-bottom: 30px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-txt-cl)
-}
+    color: var(--secondary-txt-cl);
+    margin-bottom: 16px;
+    
 
+}
+.team-list {
+    
+    align-items: center;
+    
+   
+}
+/* .team-list :last-child{
+    margin-right: 0;
+} */
+.social-link {
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    
+}
+.social-list {
+    gap: 10px;
+    display: flex;
+    list-style: none;
+}
+.social-icon {
+    color: #AFB1B8;
+}
 /* Футер */
 .footer {
     padding-top: 60px;
