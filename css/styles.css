@@ -406,44 +406,92 @@ padding-bottom: 30px;
     list-style: none;
 }
 .social-icon {
-    color: #AFB1B8;
+    fill: #AFB1B8;  
 }
+
+.social-link:hover {
+    background-color: #2196F3;
+}
+
+.social-link:hover .social-icon {
+    fill: #ffffff;
+}
+
 /* Постоянные клиенты */
 
 .section-clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.list-clients {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
 
-.client-box {
+.clients-icon-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    background-color: #ffffff;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+}
+
+.clients-icon {
+    fill: #AFB1B8;
+}
+
+.clients-icon-icon:hover .clients-icon {
+    fill: #2196F3;
+   
+}
+
+.clients-icon-icon:hover {
+border: 1px solid #2196F3;
+}
+
+
+/* .client-box {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding: 16px 32px;
     
-}
+} */
 
-.clients-icon {
+/* .clients-icon {
     fill: currentColor;
     
-}
-
-
-.clients-icon-icon:hover,
- .clients-icon-icon:focus {
-    display: flex; 
-    cursor: pointer;
+} */
+/* .clients-icon-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #2196F3;
+} */
+
+/* .clients-icon-icon:hover,
+ .clients-icon-icon:focus {
+    /* display: flex; 
+    cursor: pointer; */
+    /* color: #2196F3;
     border: 1px solid #2196F3;
     
- }
+ } */ */
 .list-clients {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     gap: 30px;
+    
     
     
 }
@@ -456,8 +504,8 @@ padding-bottom: 30px;
         line-height: 1.17;
         text-align: center;
         letter-spacing: 0.03em;
-    
         color: #212121;
+        margin-bottom: 50px;
 }
 /* Футер */
 .footer {
