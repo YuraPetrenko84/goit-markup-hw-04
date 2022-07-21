@@ -90,11 +90,11 @@ border-bottom: 1px solid #ECECEC;
 }
 .mailhover-icons:hover,
 .mailhover-icons:focus {
-    background-color: #2196F3;
+    fill: #2196F3;
 }
 .vector-icons:hover,
 .vector-icons:focus {
-    background-color: #2196F3;
+    fill: #2196F3;
 }
 .mailhover-icons {
     display: flex;
@@ -758,8 +758,6 @@ margin-left: 70px;
 }
 
 .portfolio-cards-text {
-    
-    
     width: 322px;
     height: 30px;
     font-weight: 400;
@@ -771,19 +769,14 @@ margin-left: 70px;
 .link-cards:hover,
 .link-cards:focus {
 color: var(--logo-blue-txt-cl);
+
 }
-
-
-
-
 
 .portfolio-cards-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-
-
 
 .item-cards {
     box-sizing: border-box;
@@ -797,4 +790,7 @@ color: var(--logo-blue-txt-cl);
     padding-bottom: 20px;
     padding-right: 24px;
     padding-left: 24px;
+}
+.item-cards:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
