@@ -449,51 +449,18 @@ padding-bottom: 30px;
 
 .clients-icon-icon:hover .clients-icon {
     fill: #2196F3;
-   
 }
 
 .clients-icon-icon:hover {
 border: 1px solid #2196F3;
 }
 
-
-/* .client-box {
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    padding: 16px 32px;
-    
-} */
-
-/* .clients-icon {
-    fill: currentColor;
-    
-} */
-/* .clients-icon-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #2196F3;
-} */
-
-/* .clients-icon-icon:hover,
- .clients-icon-icon:focus {
-    /* display: flex; 
-    cursor: pointer; */
-    /* color: #2196F3;
-    border: 1px solid #2196F3;
-    
- } */ */
 .list-clients {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 30px;
-    
-    
-    
+    gap: 30px;    
 }
 
 .title-clients {
@@ -512,21 +479,31 @@ border: 1px solid #2196F3;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--dark-bg-cl);
+    
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
 }
 .logo-link-footer {
     width: 145px;
     height: 31px;
-  
-   margin-bottom: 20px; 
+    margin-bottom: 20px;
+    
 }
 .logo-accent-footer {
     color: var(--logo-white-txt-cl);
+    
 }
 
 .footer-list {
     width: 231px;
     height: 81px;
+   
 }
+
+
 .footer-text {
     margin-bottom: 9px;
     font-family: 'Roboto';
@@ -580,6 +557,56 @@ border: 1px solid #2196F3;
 .footer-tel:focus {
     color: var(--logo-blue-txt-cl);
 }
+
+
+/* Футер. Правый блок */
+
+
+.footer-right-block {
+margin-left: 70px;
+   
+} 
+
+.footer-social-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: center; 
+     gap: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.footer-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+     font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+     color: #FFFFFF;
+}
+
+.footer-social-icon {
+    fill: #FFFFFF;
+}
+.footer-social-link:hover {
+    background-color: #2196F3;;
+} 
 
 /* Prtfolio*/
 .page-header-portfolio {
