@@ -87,27 +87,31 @@ border-bottom: 1px solid #ECECEC;
     margin-left: 305px;
     display: flex;
     align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
     
 }
-.mailhover-icons:hover,
-.mailhover-icons:focus {
-    color: #2196F3;
-}
-/* .mail-icon :hover,
-.mail-icon :focus {
-    color: #2196F3;
+/* .contacts-link-icons {
+    color: #757575;
 } */
+
+/* .mailhover-icons:hover,
+.mailhover-icons:focus {
+    fill: #2196F3;
+}
+
+
 .vector-icons:hover,
 .vector-icons:focus {
     fill: #2196F3;
-}
+} */
 .mailhover-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
-    
-    fill: #757575;
+    fill:currentColor;
     
 }
 .vector-icons {
@@ -115,7 +119,7 @@ border-bottom: 1px solid #ECECEC;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
-     fill: #757575; 
+    fill: currentColor; 
     
 }
 .contacts-link {
@@ -123,6 +127,7 @@ border-bottom: 1px solid #ECECEC;
     padding-top: 32px;
     padding-bottom: 32px;
     margin-right: 30px;
+    
 }
 
 .contacts-tel {
@@ -199,6 +204,17 @@ border-bottom: 1px solid #ECECEC;
 .contacts-tel:focus {
     color: var(--logo-blue-txt-cl);
 }
+
+/* .mail-icon:hover,
+.mail-icon:focus {
+    color: #2196F3;
+}
+
+
+.vector-icons:hover,
+.vector-icons:focus {
+   color: #2196F3;
+} */
 
 
 
